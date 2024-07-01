@@ -1,0 +1,19 @@
+    usermod --help
+    man usermod
+    useradd lee
+    grep lee /etc/passwd
+    id lee
+    groupadd dev
+    cat /etc/group
+    grep dev /etc/group
+    usermod -aG dev lee
+    id lee
+    groupadd junior
+    usermod -aG junior lee
+    id lee
+    usermod -g dev lee
+    id lee
+    userdel -r lee
+    groupdel lee
+    useradd -d /home/hunt -c "Jack Hunt" -s /bin/sh -g dev -u 1005 -G ec2-user jack
+    
